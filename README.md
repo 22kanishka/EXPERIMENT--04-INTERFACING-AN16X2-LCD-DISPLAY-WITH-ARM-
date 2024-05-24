@@ -181,10 +181,10 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
   Lcd_HandleTypeDef lcd;
   lcd = Lcd_create(ports,pins,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
   Lcd_cursor(&lcd, 0,0);
-  Lcd_string(&lcd,"DATA SCIENCE");
+  Lcd_string(&lcd,"COMPUTER SCIENCE");
 
   Lcd_cursor(&lcd, 1,0);
-  Lcd_string(&lcd,"BRINDHA R");
+  Lcd_string(&lcd,"KANISHKA P");
 ```
 ## Output screen shots of proteus  :
  ![image](https://github.com/Brindha77/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/118889143/7adb7ce5-4b57-41d6-a0e3-5932f0f87145)
